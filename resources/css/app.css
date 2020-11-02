@@ -1,3 +1,72 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.bg-gray-figma {
+    background-color: #213837
+}
+
+.m-0-50 {
+    margin: 0 50px;
+}
+
+.nav-items {
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.green {
+    color: #00fa7c;
+    width: 100%;
+    padding: 12px 50px 12px 30px;
+    margin: 5px 0;
+}
+
+.green:hover {
+    color: #213837;
+    background: #00fa7c;
+}
+
+.menu-container {
+    margin-top: 60px;
+}
+
+.mar {
+    margin-right: 15px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-footer {
+    margin-top: auto;
+}
+
+.nav-footer-menu {
+    border-bottom: 1px solid #00fa7c;
+}
+
+.foot {
+    margin: 15px 30px;
+}
+
+.foot-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.foot-container img {
+    width: 20px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.header-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #01cc66;
+}
