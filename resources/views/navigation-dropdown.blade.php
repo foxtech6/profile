@@ -110,7 +110,7 @@
     <div class="sm:flex nav-items menu-container">
         <div class="green"><i class="mar fas fa-home"></i> Home</div>
         <div class="green"><i class="mar fas fa-columns"></i> Dashboard</div>
-        <div class="green"><a href="#"><i class="mar fas fa-user"></i> My Profile</a></div>
+        <div class="green"><a href="{{ route('profile.show') }}"><i class="mar fas fa-user"></i> My Profile</a></div>
         <div class="green"><i class="mar fas fa-suitcase"></i> Jobs <span class="float-right"><i class="fas fa-chevron-right"></i></span></div>
         <div class="green"><i class="mar fas fa-envelope"></i> Messages</div>
         <div class="green"><i class="mar far fa-calendar-plus"></i> Calendar</div>

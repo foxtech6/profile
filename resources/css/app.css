@@ -2,6 +2,10 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+.container {
+    margin: auto;
+}
+
 .bg-gray-figma {
     background-color: #213837
 }
